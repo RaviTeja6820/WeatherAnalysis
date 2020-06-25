@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/1145022edc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <title>Weather Analysis</title>
+</head>
+<body>
+    <div id="continents">
+        <ul>
+            <li>Asia</li>
+            <li>Europe</li>
+            <li>Australia</li>
+            <li>North America</li>
+            <li>South America</li>
+            <li>South Africa</li>
+            <li>Latin America</li>
+        </ul>
+    </div>
+    <div id = "top-bar">
+        <div id = "logo">
+            <i class="fas fa-cloud-sun-rain"><span id = "title">&nbsp;Weather Analysis</span></i>
+        </div>
+        <div id = "search">
+            <input type="text" placeholder="search">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div id = "nav-bar">
+        <div id = "navigation">
+            <ul>
+                <li>Home</li>
+                <li>Team</li>
+                <li>Services</li>
+                <li>Clients</li>
+                <li>Extra</li>
+            </ul>
+        </div>
+        <div id = "profile">
+                <ul id = "details">
+                    <li class="bg-dark top-round">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L Naga Sai Sri Ravi Teja</li>
+                    <li class="bg-light">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;121710307017</li>
+                    <li class="bg-dark bottom-round">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9999988888</li>
+                    <li id="space">A</li>
+                </ul>
+                <img src="dp.jpg">
+        </div>
+        <div id = "main-div">
+            <div id = "loader" class="rotate linear infinite">
+                <!-- <img src="loader.png" width="25px"> -->
+                <i class="fas fa-redo"></i>
+            </div>
+            <div id = "left">
+                <ul id = "left-block">
+                    <li class="block">
+                        <p>Hyper-Links :</p>
+                       <ul id = "hyper-links">
+                           <li><a href="#">link1</a></li>
+                           <li><a href="#">link2</a></li>
+                           <li><a href="#">link3</a></li>
+                           <li><a href="#">link4</a></li>
+                           <li><a href="#">link5</a></li>
+                           <li><a href="#">link6</a></li>
+                           <li><a href="#">link7</a></li>
+                           <li><a href="#">link8</a></li>
+                           <li><a href="#">link9</a></li>
+                           <li><a href="#">link10</a></li>
+                       </ul> 
+                    </li>
+                    <li class="block continent">
+                        <button id = "select">Select Place</button>
+                     </li>
+                     <li class="block">
+                        <ul id = "features">
+                            <li><button>Data Predictions</button></li>
+                            <li><button>Data Regression</button></li>
+                            <li><button>Data Visualization</button></li>
+                            <li><button>Plotting</button></li>
+                            <li><button>Compare</button></li>
+                        </ul> 
+                     </li>
+                     <li class="xml">
+                        <span>80% data loaded ..
+                            20% yet to be loaded
+                        </span>
+                     </li>
+                </ul>
+            </div>
+            <div id= "map">
+                <img src="map.png">
+            </div>
+            <div id = "right">
+                <ul id = "right-block">
+                    <li class="block weather">
+                        <div id = "weather-details"> 
+                            <i class="fas fa-cloud climate"></i>
+                            <ul id="time">
+                                <li><code>Wed</code> 24/06</li>   
+                                <li>34 deg/28 deg</li>
+                            </ul>
+                            <span>Mostly Cloudy</span>
+                        </div>
+                     </li>
+                     <li class="block scrollings">
+                        <ul id = "news">
+                            <li class="news blue">
+                                <marquee class="bg-light">Marquee text.....</marquee>
+                                <marquee scrolldelay = "95">Marquee text.....</marquee>
+                                <marquee class="bg-light">Marquee text.....</marquee>
+                                <marquee scrolldelay = "100">Marquee text.....</marquee>
+                                <marquee class="bg-light" scrolldelay = "90">Marquee text.....</marquee>
+                                <marquee scrolldelay = "87">Marquee text.....</marquee>
+                                <marquee class="bg-light" scrolldelay = "70">Marquee text.....</marquee>
+                                <marquee scrolldelay = 65>Marquee text.....</marquee>
+                            </li>
+                        </ul> 
+                     </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <span>CopyRight-TM by L N S S Ravi Teja</span>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
